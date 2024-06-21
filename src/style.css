@@ -1,1 +1,43 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+.cardContainer {
+  margin: 20rem auto;
+}
+.card {
+  background-color: black;
+  height: 15rem;
+}
+.side {
+  width: 3rem;
+  text-align: center;
+}
+.center {
+  width: 16.5rem;
+  text-align: center;
+}
+.container {
+  display: flex;
+}
+p {
+  color: white;
+  font-size: 3rem;
+  margin: 3px auto;
+}
+.sideSuit {
+  font-size: 4rem;
+}
+.centerSuit {
+  font-size: 10rem;
+  margin: 45% 0 40% 0;
+}
+.bottomSide {
+  transform: rotate(180deg);
+}
+.topSide,
+.bottomSide {
+  display: flex;
+}
+.rightSide {
+  border-top-right-radius: 10px;
+}
+.leftSide {
+  border-top-left-radius: 10px;
+}
